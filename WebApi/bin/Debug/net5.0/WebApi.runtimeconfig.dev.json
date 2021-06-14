@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\kayra\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\kayra\\.nuget\\packages"
+    ]
+  }
+}

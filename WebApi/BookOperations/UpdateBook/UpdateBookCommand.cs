@@ -4,7 +4,7 @@ using WebApi.DBOperations;
 using WebApi.Common;
 using System;
 
-namespace WebApi.BookOperations.CreateBook
+namespace WebApi.BookOperations.UpdateBook
 {
   public class UpdateBookCommand
   {

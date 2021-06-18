@@ -39,7 +39,28 @@ namespace WebApi.DBOperations
             PublishDate = new DateTime(2001, 09, 12)
           }
         );
+        context.SaveChanges();
+      }
 
+      using(var context = new AuthorDBContext(serviceProvider.GetRequiredService<DbContextOptions<AuthorDBContext>>()))
+      {
+        if(context.Authors.Any())
+        {
+          return;
+        }
+
+        context.Authors.AddRange(
+          new Author{
+            FirstName = "Kayra",
+            LastName = "Çakıroğlu",
+            Birthday = new DateTime(1999, 08, 09)
+          },
+          new Author{
+            FirstName = "Ulaş",
+            LastName = "Çakıroğlu",
+            Birthday = new DateTime(1997, 07, 02),
+          }
+        );
         context.SaveChanges();
       }
     }

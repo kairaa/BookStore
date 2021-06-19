@@ -4,7 +4,7 @@ using AutoMapper;
 using WebApi.DBOperations;
 using System.Linq;
 
-namespace WebApi.AuthorOperations.GetAuthors
+namespace WebApi.Application.AuthorOperations.GetAuthors
 {
     public class GetAuthorsQuery
     {

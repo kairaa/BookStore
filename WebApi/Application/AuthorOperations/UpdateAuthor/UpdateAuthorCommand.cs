@@ -4,7 +4,7 @@ using WebApi.DBOperations;
 using WebApi.Common;
 using System;
 
-namespace WebApi.AuthorOperations.UpdateAuthor
+namespace WebApi.Application.AuthorOperations.UpdateAuthor
 {
     public class UpdateAuthorCommand
     {

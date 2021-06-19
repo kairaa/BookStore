@@ -7,11 +7,12 @@ using WebApi.DBOperations;
 using WebApi.Common;
 using System.ComponentModel.DataAnnotations;
 using FluentValidation;
-using WebApi.AuthorOperations.GetAuthors;
-using WebApi.AuthorOperations.CreateAuthor;
-using WebApi.AuthorOperations.DeleteAuthor;
-using WebApi.AuthorOperations.GetAuthorDetail;
-using WebApi.AuthorOperations.UpdateAuthor;
+using WebApi.Application.AuthorOperations.GetAuthors;
+using WebApi.Application.AuthorOperations.CreateAuthor;
+using WebApi.Application.AuthorOperations.DeleteAuthor;
+using WebApi.Application.AuthorOperations.GetAuthorDetail;
+using WebApi.Application.AuthorOperations.UpdateAuthor;
+using WebApi.Application.AuthorOperationss.UpdateAuthor;
 
 namespace WebApi.AddControllers
 {

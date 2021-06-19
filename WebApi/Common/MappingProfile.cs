@@ -1,10 +1,10 @@
 using AutoMapper;
-using WebApi.AuthorOperations.CreateAuthor;
-using WebApi.AuthorOperations.GetAuthorDetail;
-using WebApi.AuthorOperations.GetAuthors;
-using WebApi.BookOperations.CreateBook;
-using WebApi.BookOperations.GetBookDetail;
-using WebApi.BookOperations.GetBooks;
+using WebApi.Application.AuthorOperations.CreateAuthor;
+using WebApi.Application.AuthorOperations.GetAuthorDetail;
+using WebApi.Application.AuthorOperations.GetAuthors;
+using WebApi.Application.BookOperations.CreateBook;
+using WebApi.Application.BookOperations.GetBookDetail;
+using WebApi.Application.BookOperations.GetBooks;
 
 namespace WebApi.Common
 {

@@ -4,7 +4,7 @@ using WebApi.DBOperations;
 using WebApi.Common;
 using System;
 
-namespace WebApi.AuthorOperations.DeleteAuthor
+namespace WebApi.Application.AuthorOperations.DeleteAuthor
 {
   public class DeleteAuthorCommand
   {

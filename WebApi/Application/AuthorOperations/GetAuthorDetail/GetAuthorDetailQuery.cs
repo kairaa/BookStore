@@ -5,7 +5,7 @@ using WebApi.Common;
 using System;
 using AutoMapper;
 
-namespace WebApi.AuthorOperations.GetAuthorDetail
+namespace WebApi.Application.AuthorOperations.GetAuthorDetail
 {
     public class GetAuthorDetailQuery
     {

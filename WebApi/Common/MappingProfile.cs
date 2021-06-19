@@ -5,6 +5,10 @@ using WebApi.Application.AuthorOperations.GetAuthors;
 using WebApi.Application.BookOperations.CreateBook;
 using WebApi.Application.BookOperations.GetBookDetail;
 using WebApi.Application.BookOperations.GetBooks;
+using WebApi.Application.GenreOperations.CreateGenre;
+using WebApi.Application.GenreOperations.GetGenreDetail;
+using WebApi.Application.GenreOperations.GetGenres;
+using WebApi.Entities;
 
 namespace WebApi.Common
 {
@@ -20,6 +24,10 @@ namespace WebApi.Common
         CreateMap<CreateAuthorModel, Author>();
         CreateMap<Author, AuthorDetailViewModel>();
         CreateMap<Author, AuthorsViewModel>();
+
+        CreateMap<CreateGenreModel, Genre>();
+        CreateMap<Genre, GenreDetailViewModel>();
+        CreateMap<Genre, GenresViewModel>();
       }
     }
 }

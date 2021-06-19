@@ -39,7 +39,7 @@ namespace WebApi
             });
 
             services.AddDbContext<BookStoreDBContext>(options => options.UseInMemoryDatabase(databaseName: "BookStoreDB"));
-            services.AddDbContext<AuthorDBContext>(options => options.UseInMemoryDatabase(databaseName: "AuthorDB"));
+            //services.AddDbContext<AuthorDBContext>(options => options.UseInMemoryDatabase(databaseName: "AuthorDB"));
             services.AddAutoMapper(Assembly.GetExecutingAssembly());
             services.AddSingleton<ILoggerService, ConsoleLogger>(); 
             //uygulama duruncaya kadar çalışan Logger, DBLogger çaslışacaksa consolelogger yerine dblogger yazılır
